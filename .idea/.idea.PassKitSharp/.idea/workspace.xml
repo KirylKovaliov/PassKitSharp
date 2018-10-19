@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a98514c-26c4-4ef8-9c1b-8d7bde2a6de2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.PassKitSharp/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PassKitSharp/Templates/baseTemplate.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PassKitSharp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PassKitSharp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PassKitSharp.Tests/PKParseUnitTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PassKitSharp.Tests/PKParseUnitTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PassKitSharp.Tests/PassKitSharp.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PassKitSharp.Tests/PassKitSharp.Tests.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PassKitSharp.Tests/SamplePasses/aaa.pkpass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PassKitSharp.Tests/SamplePasses/bestbuy.pkpass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PassKitSharp.Tests/SamplePasses/blockbuster.pkpass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PassKitSharp.Tests/SamplePasses/delta.pkpass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PassKitSharp.Tests/SamplePasses/lafitness.pkpass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PassKitSharp/PassKitSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PassKitSharp/PassKitSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/119.1.7.pkpass" beforeDir="false" />
-    </list>
+    <list default="true" id="3a98514c-26c4-4ef8-9c1b-8d7bde2a6de2" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PKParseUnitTests.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PKParseUnitTests.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PassKitSharp.Tests/PKParseUnitTests.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+            <state relative-caret-position="255">
+              <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
               <folding>
                 <marker date="1539942436610" expanded="true" signature="6:105" ph="..." />
                 <marker date="1539942436610" expanded="true" signature="135:539" ph="{...}" />
@@ -73,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="baseTemplate.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="baseTemplate.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PassKitSharp/Templates/baseTemplate.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+            <state relative-caret-position="315">
+              <caret line="9" column="30591" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="30591" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -131,7 +118,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-425" />
     <option name="y" value="-8" />
     <option name="width" value="1939" />
@@ -251,12 +238,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1539941582252</updated>
-      <workItem from="1539941584174" duration="1230000" />
+      <workItem from="1539941584174" duration="1472000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1230000" />
+    <option name="totallyTimeSpent" value="1472000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -279,11 +266,11 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="NuGet" weight="0.3295099" />
-      <window_info anchor="right" content_ui="combo" id="Project" order="4" visible="true" weight="0.26180992" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="4" visible="true" weight="0.26180992" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Build" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39937434" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39937434" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
@@ -374,10 +361,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PassKitSharp.Tests/PKParseUnitTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+          <folding>
+            <marker date="1539942436610" expanded="true" signature="6:105" ph="..." />
+            <marker date="1539942436610" expanded="true" signature="135:539" ph="{...}" />
+            <marker date="1539942436610" expanded="true" signature="189:537" ph="{...}" />
+            <marker date="1539942436610" expanded="true" signature="250:531" ph="{...}" />
+            <marker date="1539942436610" expanded="true" signature="444:520" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PassKitSharp/Templates/baseTemplate.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        <state relative-caret-position="315">
+          <caret line="9" column="30591" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="30591" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -386,20 +387,6 @@
             <element signature="n#style#0;n#dd#0;n#dl#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#dt#0;n#dl#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#dd#0;n#dl#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PassKitSharp.Tests/PKParseUnitTests.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-          <folding>
-            <marker date="1539942436610" expanded="true" signature="6:105" ph="..." />
-            <marker date="1539942436610" expanded="true" signature="135:539" ph="{...}" />
-            <marker date="1539942436610" expanded="true" signature="189:537" ph="{...}" />
-            <marker date="1539942436610" expanded="true" signature="250:531" ph="{...}" />
-            <marker date="1539942436610" expanded="true" signature="444:520" ph="{...}" />
           </folding>
         </state>
       </provider>
