@@ -1,13 +1,408 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3a98514c-26c4-4ef8-9c1b-8d7bde2a6de2" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.PassKitSharp/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PassKitSharp/Templates/baseTemplate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PassKitSharp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PassKitSharp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PassKitSharp.Tests/PKParseUnitTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PassKitSharp.Tests/PKParseUnitTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PassKitSharp.Tests/PassKitSharp.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PassKitSharp.Tests/PassKitSharp.Tests.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PassKitSharp.Tests/SamplePasses/aaa.pkpass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PassKitSharp.Tests/SamplePasses/bestbuy.pkpass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PassKitSharp.Tests/SamplePasses/blockbuster.pkpass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PassKitSharp.Tests/SamplePasses/delta.pkpass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PassKitSharp.Tests/SamplePasses/lafitness.pkpass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PassKitSharp/PassKitSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PassKitSharp/PassKitSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/119.1.7.pkpass" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="PassKit.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PassKitSharp/PassKit.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+              <folding>
+                <marker date="1539941414192" expanded="false" signature="6:160" ph="..." />
+                <marker date="1539941414192" expanded="true" signature="184:2713" ph="{...}" />
+                <marker date="1539941414192" expanded="true" signature="211:2711" ph="{...}" />
+                <marker date="1539941414192" expanded="true" signature="1876:1985" ph="{...}" />
+                <marker date="1539941414192" expanded="true" signature="2078:2160" ph="{...}" />
+                <marker date="1539941414192" expanded="true" signature="2239:2331" ph="{...}" />
+                <marker date="1539941414192" expanded="true" signature="2406:2494" ph="{...}" />
+                <marker date="1539941414192" expanded="true" signature="2621:2705" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PKImage.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PassKitSharp/PKImage.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+              <folding>
+                <marker date="1539941414072" expanded="false" signature="6:115" ph="..." />
+                <marker date="1539941414072" expanded="true" signature="139:367" ph="{...}" />
+                <marker date="1539941414072" expanded="true" signature="166:365" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PKParseUnitTests.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PassKitSharp.Tests/PKParseUnitTests.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+              <folding>
+                <marker date="1539942436610" expanded="true" signature="6:105" ph="..." />
+                <marker date="1539942436610" expanded="true" signature="135:539" ph="{...}" />
+                <marker date="1539942436610" expanded="true" signature="189:537" ph="{...}" />
+                <marker date="1539942436610" expanded="true" signature="250:531" ph="{...}" />
+                <marker date="1539942436610" expanded="true" signature="444:520" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="baseTemplate.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PassKitSharp/Templates/baseTemplate.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dt#0;n#dl#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dd#0;n#dl#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dt#0;n#dl#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dd#0;n#dl#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PKBarcode.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PassKitSharp/PKBarcode.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1539941414069" expanded="false" signature="6:115" ph="..." />
+                <marker date="1539941414069" expanded="true" signature="139:539" ph="{...}" />
+                <marker date="1539941414069" expanded="true" signature="168:372" ph="{...}" />
+                <marker date="1539941414069" expanded="true" signature="405:537" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/PassKitSharp/PKImage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PassKitSharp.Sample/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PassKitSharp/PassKit.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PassKitSharp/PKBarcode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PassKitSharp.Tests/PKParseUnitTests.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/PassKitSharp/Templates/baseTemplate.html" />
+        <option value="$PROJECT_DIR$/PassKitSharp.Tests/PKParseUnitTests.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-15" />
+    <option name="x" value="-425" />
     <option name="y" value="-8" />
-    <option name="width" value="1819" />
+    <option name="width" value="1939" />
     <option name="height" value="1096" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="PassKitSharp (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="PassKitSharp (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="PassKitSharp" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="PassKitSharp (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="PassKitSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Templates" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="PassKitSharp (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="PassKitSharp.Sample" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="PassKitSharp (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="PassKitSharp.Tests" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="PassKitSharp (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="PassKitSharp.Tests" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="References" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="PassKitSharp (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="PassKitSharp.Tests" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="References" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assemblies" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="PassKitSharp (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="PassKitSharp.Tests" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="References" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Projects" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="PassKitSharp (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="PassKitSharp.Tests" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="SamplePasses" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/PassKitSharp.Tests/SamplePasses/119.1.7.pkpass" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Project.Default">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+    </configuration>
+    <list>
+      <item itemvalue=".NET Project.Default" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a98514c-26c4-4ef8-9c1b-8d7bde2a6de2" name="Default" comment="" />
+      <created>1539941582252</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539941582252</updated>
+      <workItem from="1539941584174" duration="1230000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1230000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1817" height="1096" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" order="0" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" weight="0.3295099" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="NuGet" weight="0.3295099" />
+      <window_info anchor="right" content_ui="combo" id="Project" order="4" visible="true" weight="0.26180992" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39937434" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/PassKitSharp.Tests/PKParseUnitTests.cs</url>
+          <line>17</line>
+          <properties documentPath="$PROJECT_DIR$/PassKitSharp.Tests/PKParseUnitTests.cs" initialLine="17">
+            <startOffsets>
+              <startOffset value="475" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="506" />
+            </endOffsets>
+          </properties>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/PassKitSharp/PKBarcode.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1539941414069" expanded="false" signature="6:115" ph="..." />
+            <marker date="1539941414069" expanded="true" signature="139:539" ph="{...}" />
+            <marker date="1539941414069" expanded="true" signature="168:372" ph="{...}" />
+            <marker date="1539941414069" expanded="true" signature="405:537" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PassKitSharp.Sample/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <marker date="1539941409082" expanded="false" signature="6:152" ph="..." />
+            <marker date="1539941409082" expanded="true" signature="183:866" ph="{...}" />
+            <marker date="1539941409082" expanded="true" signature="203:864" ph="{...}" />
+            <marker date="1539941409082" expanded="true" signature="249:858" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PassKitSharp/PassKit.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding>
+            <marker date="1539941414192" expanded="false" signature="6:160" ph="..." />
+            <marker date="1539941414192" expanded="true" signature="184:2713" ph="{...}" />
+            <marker date="1539941414192" expanded="true" signature="211:2711" ph="{...}" />
+            <marker date="1539941414192" expanded="true" signature="1876:1985" ph="{...}" />
+            <marker date="1539941414192" expanded="true" signature="2078:2160" ph="{...}" />
+            <marker date="1539941414192" expanded="true" signature="2239:2331" ph="{...}" />
+            <marker date="1539941414192" expanded="true" signature="2406:2494" ph="{...}" />
+            <marker date="1539941414192" expanded="true" signature="2621:2705" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PassKitSharp/PKImage.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <marker date="1539941414072" expanded="false" signature="6:115" ph="..." />
+            <marker date="1539941414072" expanded="true" signature="139:367" ph="{...}" />
+            <marker date="1539941414072" expanded="true" signature="166:365" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PassKitSharp/Templates/baseTemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dt#0;n#dl#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dd#0;n#dl#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dt#0;n#dl#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dd#0;n#dl#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PassKitSharp.Tests/PKParseUnitTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding>
+            <marker date="1539942436610" expanded="true" signature="6:105" ph="..." />
+            <marker date="1539942436610" expanded="true" signature="135:539" ph="{...}" />
+            <marker date="1539942436610" expanded="true" signature="189:537" ph="{...}" />
+            <marker date="1539942436610" expanded="true" signature="250:531" ph="{...}" />
+            <marker date="1539942436610" expanded="true" signature="444:520" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
