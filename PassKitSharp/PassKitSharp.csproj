@@ -36,14 +36,23 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\packages\Newtonsoft.Json.4.5.10\lib\net40\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="QRCoder, Version=1.3.3.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\QRCoder.1.3.3\lib\net40\QRCoder.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\QRCoder.1.3.3\lib\net40\UnityEngine.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Crypto\asn1\Asn1Encodable.cs" />
@@ -1053,6 +1062,7 @@
     <Compile Include="Crypto\x509\X509V2CRLGenerator.cs" />
     <Compile Include="Crypto\x509\X509V3CertificateGenerator.cs" />
     <Compile Include="PassKit.cs" />
+    <Compile Include="PK2Html.cs" />
     <Compile Include="PKBarcode.cs" />
     <Compile Include="PKColor.cs" />
     <Compile Include="PKImage.cs" />

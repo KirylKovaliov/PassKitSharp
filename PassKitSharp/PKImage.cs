@@ -13,5 +13,11 @@ namespace PassKitSharp
 
         public byte[] Data { get; set; }
         public byte[] HighResData { get; set; }
+
+        public string ToBase64()
+        {
+            return Convert.ToBase64String((HighResData ?? Data));
+        }
     }
 }
+    

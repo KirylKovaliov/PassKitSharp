@@ -18,7 +18,7 @@ namespace PassKitSharp
 
     public class PKPassStringField : PKPassField
     {
-        public string Value { get; set; }
+        
     }
 
     public class PKPassDateField : PKPassField
@@ -26,19 +26,18 @@ namespace PassKitSharp
         public PKPassFieldDateStyle? DateStyle { get; set; }
         public PKPassFieldDateStyle? TimeStyle { get; set; }
         public bool? IsRelative { get; set; }
-        public DateTime Value { get;set; }
     }
 
     public class PKPassNumberField : PKPassField
     {
         public PKPassFieldNumberStyle? NumberStyle { get; set; }
-        public double Value { get;set; }
     }
 
     public abstract class PKPassField
     {
         public string Key { get; set; }
         public string Label { get; set; }
+        public string Value { get; set; }
         public PKPassFieldTextAlignment? TextAlignment { get; set; }
      }
 

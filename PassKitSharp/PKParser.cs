@@ -395,6 +395,14 @@ namespace PassKitSharp
 
         static void ParsePassSet(PassKit p, JObject json)
         {
+            if (json["headerFields"] != null && json["headerFields"] is JArray)
+            {
+                if (p.HeaderFields == null)
+                    p.HeaderFields = new PKPassFieldSet();
+
+                ParsePassFieldSet(json["headerFields"] as JArray, p.HeaderFields);
+            }
+            
             if (json["primaryFields"] != null && json["primaryFields"] is JArray)
             {
                 if (p.PrimaryFields == null)
@@ -458,7 +466,7 @@ namespace PassKitSharp
                     if (item["isRelative"] != null)
                         ((PKPassDateField)field).IsRelative = item["isRelative"].Value<bool>();
 
-                    ((PKPassDateField)field).Value = tmpDate;
+                    ((PKPassDateField)field).Value = tmpDate.ToString();
                 }
                 else if (double.TryParse(item["value"].ToString(), out tmp))
                 {
@@ -467,7 +475,7 @@ namespace PassKitSharp
                     if (item["numberStyle"] != null)
                         ((PKPassNumberField)field).NumberStyle = (PKPassFieldNumberStyle)Enum.Parse(typeof(PKPassFieldNumberStyle), item["numberStyle"].ToString());
 
-                    ((PKPassNumberField)field).Value = tmp;
+                    ((PKPassNumberField)field).Value = tmp.ToString();
                 }
                 else
                 {

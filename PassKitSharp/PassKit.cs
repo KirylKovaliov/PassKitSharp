@@ -40,6 +40,7 @@ namespace PassKitSharp
 
         public PKPassType PassType { get; set; }
 
+        public PKPassFieldSet HeaderFields { get; set; }
         public PKPassFieldSet PrimaryFields { get; set; }
         public PKPassFieldSet SecondaryFields { get; set; }
         public PKPassFieldSet AuxiliaryFields { get; set; }
@@ -47,7 +48,11 @@ namespace PassKitSharp
 
         public bool? SuppressStripShine { get; set; }
 
-        
+        public string ToHtml()
+        {
+            return PK2Html.Convert(this);
+        }
+
         public static PassKit Parse(string filename, bool loadHighResImages = true)
         {
             return PKParser.Parse(System.IO.File.OpenRead(filename), loadHighResImages);
